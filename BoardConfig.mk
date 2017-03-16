@@ -24,3 +24,4 @@ include $(DEVICE_PATH)/board/*.mk
 
 # Inherit from the proprietary version
 include vendor/nextbit/ether/BoardConfigVendor.mk
+
