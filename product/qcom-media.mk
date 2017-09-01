@@ -2,11 +2,7 @@
 PRODUCT_PACKAGES += \
     libstagefrighthw \
     libc2dcolorconvert \
-    libOmxAacEnc \
-    libOmxAmrEnc \
     libOmxCore \
-    libOmxEvrcEnc \
-    libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc
 
