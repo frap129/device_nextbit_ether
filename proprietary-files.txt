@@ -219,27 +219,20 @@ vendor/lib/libmmcamera_s5k5e2.so
 
 # CNE
 -priv-app/CNEService/CNEService.apk
-bin/cnd
-etc/cne/SwimConfig.xml
-etc/cne/andsfCne.xml
+bin/cnd|36b8019f715af6a5dbbd10d0c6591ebc4bbc9a3f
+etc/permissions/CNEService.xml|257d6348c228bb89f07823c483c36ff8a7515c7d
 etc/permissions/ConnectivityExt.xml
-etc/permissions/cneapiclient.xml
-etc/permissions/com.quicinc.cne.xml
-framework/cneapiclient.jar
-framework/com.quicinc.cne.jar
+etc/permissions/cneapiclient.xml|5831adf0e80243042b90c734eea0a68eb8ae9c9
+framework/cneapiclient.jar|0855c005d64e54b8fb33dbcb7a7900cd84df46c8
 framework/ConnectivityExt.jar
-vendor/lib/libcne.so
-vendor/lib/libcneapiclient.so
-vendor/lib/libcneqmiutils.so
-vendor/lib/libvendorconn.so
-vendor/lib/libwqe.so
-vendor/lib/libxml.so
-vendor/lib64/libcne.so
-vendor/lib64/libcneapiclient.so
-vendor/lib64/libcneqmiutils.so
-vendor/lib64/libvendorconn.so
-vendor/lib64/libwqe.so
-vendor/lib64/libxml.so
+vendor/lib/libcne.so|991559956525b90365463f73122893e20d64d6f8
+vendor/lib/libcneapiclient.so|edcc6f14e33571e91cf7ce4de7a3098efa953eea 
+vendor/lib/libwms.so|d46704f575ec495dfcbba9300856b3e831275fff 
+vendor/lib/libxml.so|880ece4024181e240c1e07615f5b9431a9c2e447
+vendor/lib64/libcne.so|929029ccc90cc159653b94222f214c1b7613f3e9
+vendor/lib64/libcneapiclient.so|84fc5c09fea14c2bfa485507695a0dff2f5ed4ef
+vendor/lib64/libwms.so|5e8d2ad27d1b70eedebc4b9cee7c1788f57fb1f0
+vendor/lib64/libxml.so|19fcb179b772d849d5ccb883f315fa8a5d6e4a81
 
 # DRM
 bin/qseecomd
@@ -417,7 +410,7 @@ vendor/lib64/libsmemlog.so
 -app/fastdormancy/fastdormancy.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/ipacm-diag
-bin/netmgrd
+bin/netmgrd|221350eb99f6dc24254cd58e471e02d39bfbb324
 bin/qmuxd
 bin/radish
 bin/rild
@@ -459,7 +452,7 @@ vendor/qcril.db
 
 # Radio - IMS
 bin/imscmservice
-bin/imsdatadaemon
+bin/imsdatadaemon|ee19461cf34425a0fa2b853594178250d9301760
 bin/imsqmidaemon
 bin/ims_rtp_daemon
 vendor/lib64/lib-dplmedia.so
